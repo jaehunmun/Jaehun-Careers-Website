@@ -1,51 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <title>Jaehun Careers</title>
-        <style>
-            h1 {
-                font-size: 40px;
-                font-family: Roboto;
-                fort-weight: normal;
-                color: rgb(50, 50, 50);
-                text-align: center;
-            }
 
+        <style>
             #banner {
-                width: 100%;
                 height: 360px;
                 object-fit: cover;
+                width: 100%;
                 }
-
-            h2 {
-                font-family: Roboto;
-                font-size: 32px;
-                color: rgb(100,100,100);
-                text-align: center;
-                }
-
-            .bodytext {
-               font-family: Roboto;
-               color: rgb(80, 80, 80);
-
-               }
-
-            #container {
-                max-width: 720px;
-                margin: 0 auto;
-            }
-
         </style>
     </head>
 
     <body>
-        <div id="container">
-        <h1>Jaehun Careers</h1>
-            <img id = 'banner' src = "http://172.30.1.49:5000/static/banner.jpg" height="320" >
+        <div class = "container">
+        <h1 class = "text-center mt-4 mb-4">Jaehun Careers</h1>
+            <img id = 'banner' class = 'img-fluid' src = "http://172.30.1.49:5000/static/banner.jpg">
 
-        <h2>About Jaehun</h2>
-            <p class = 'bodytext'>
+        <h2 class = "text-center mt-2 mb-2">About Jaehun</h2>
+            <p class = "lead">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m
                 inim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -53,12 +29,12 @@
                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid
                 atat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-        <h2>Open Positions</h2>
-            <p class = 'bodytext'>To Do - Show the jobs here</p>
-            <div style = 'text-align:center;'>
-                <button>Contact Us</button>
-                <p>Copyright 2023, Jaehun</p>
+        <h2 class = "text-center mt-2 mb-2">Open Positions</h2>
+            <p>To Do - Show the jobs here</p>
+            <div class = 'text-center mt-4 mb-4'>
+                <button class="btn btn-primary">Contact Us</button>
             </div>
+            <p class = 'text-center'>Copyright 2023, Jaehun</p>
         </div>
     </body>
 </html>
